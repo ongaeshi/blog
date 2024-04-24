@@ -8,7 +8,7 @@ EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6
 Draft: true
 ---
 
-C# における `if (obj?.Foo?.Bar ?? false)` のような null 条件演算子と null 合体演算子を組み合わせた式が読みにくくて苦手だった。
+C# における `if (obj?.Foo?.Bar ?? false)` のような [null 条件演算子](https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-)と [null 合体演算子](https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/operators/null-coalescing-operator)を組み合わせた式が読みにくくて苦手だった。
 
 ```cs
 if (obj?.Foo?.Bar ?? false) {
@@ -51,7 +51,7 @@ if (obj?.Foo?.Bar ?? false) {
 int i = obj?.Foo?.Bar ?? 0; 
 ```
 
-ここで最も頭がこんがらがった 2 つ目の式に戻る。`if (!obj?.Foo?.Bar ?? true)` の null 合体演算子が null 条件演算子 のデフォルト値として振る舞っていると考えると、この式はすでに一度別の法則で展開されていることに気がつく。そうド・モルガンの法則である。
+ここで2つ目の式に戻る。`if (!obj?.Foo?.Bar ?? true)` の null 合体演算子が null 条件演算子 のデフォルト値として振る舞っていると考えると、この式はすでに一度別の法則で展開されていることに気がつく。そう **ド・モルガンの法則** だ。
 
 ```cs
 if (!(obj?.Foo?.Bar ?? false)) {
