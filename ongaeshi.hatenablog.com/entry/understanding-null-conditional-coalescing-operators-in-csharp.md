@@ -5,7 +5,6 @@ Category:
 Date: 2024-04-25T00:41:24+09:00
 URL: https://ongaeshi.hatenablog.com/entry/understanding-null-conditional-coalescing-operators-in-csharp
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6801883189101207313
-Draft: true
 ---
 
 C# における `if (obj?.Foo?.Bar ?? false)` のような [null 条件演算子](https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-)と [null 合体演算子](https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/operators/null-coalescing-operator)を組み合わせた式が読みにくくて苦手だった。
