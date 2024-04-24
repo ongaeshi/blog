@@ -2,6 +2,7 @@
 Title: C# の null 条件演算子と null 合体演算子の組み合わせを理解する
 Category:
 - C#
+- programming
 Date: 2024-04-25T00:41:24+09:00
 URL: https://ongaeshi.hatenablog.com/entry/understanding-null-conditional-coalescing-operators-in-csharp
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6801883189101207313
@@ -61,3 +62,6 @@ if (!(obj?.Foo?.Bar ?? false)) {
 ```
 
 つまり `if (!obj?.Foo?.Bar ?? true)` は `if (!(obj?.Foo?.Bar ?? false))` の括弧を一度展開した状態だったのだ、やっと理解できた！
+
+[blog:g:11696248318754550880:banner]
+

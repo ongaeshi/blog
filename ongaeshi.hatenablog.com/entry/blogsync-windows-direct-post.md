@@ -2,6 +2,7 @@
 Title: blogsync で Windows からも直接新規記事を投稿したい
 Category:
 - blogsync
+- programming
 Date: 2024-04-08T00:30:00+09:00
 URL: https://ongaeshi.hatenablog.com/entry/blogsync-windows-direct-post
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/4207112889981771582
@@ -21,3 +22,5 @@ PS> blogsync post --draft --title=blogsync ongaeshi.hatenablog.com
 ```
 
 これで OK。
+
+[blog:g:11696248318754550880:banner]

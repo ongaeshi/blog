@@ -3,6 +3,7 @@ Title: ChatGPT に Ruby など他のプログラミング言語も実行させ�
 Category:
 - ruby
 - chatgpt
+- programming
 Date: 2024-02-05T15:00:00+09:00
 URL: https://ongaeshi.hatenablog.com/entry/chatgpt-ruby-execution
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6801883189080266145
@@ -187,3 +188,5 @@ gets が使えないのでコンピュータが自動で入力するような方
 最後は簡単なゲームを作ってもらいました。答える側の AI 部分もこちらが要求すれば作ってくれるのはすごいですね。
 # まとめ
 プロンプト側に URL も含めて生成させておくと後からチャットログを再確認するときや、今回のようにブログに貼り付けるときにすぐに確認できるので結構便利です。その場でコードを変更して確認できるのもよいです。是非みなさんも色々な Ruby コードを生成させて実行してみてください。
+
+[blog:g:11696248318754550880:banner]

@@ -2,6 +2,7 @@
 Title: はてなブログを git レポジトリで運用する
 Category:
 - blogsync
+- programming
 Date: 2024-04-17T22:30:24+09:00
 URL: https://ongaeshi.hatenablog.com/entry/hatena-blog-git-repository-management
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6801883189097903098
@@ -35,3 +36,5 @@ $ git diff --name-only | ForEach-Object { blogsync push $_ }
 ```
 
 お気に入りのエディタを使ってドキュメントを書くのが好きな人など、 blogsync + git レポジトリの組み合わせによるブログ編集は大変おすすめです。
+
+[blog:g:11696248318754550880:banner]
