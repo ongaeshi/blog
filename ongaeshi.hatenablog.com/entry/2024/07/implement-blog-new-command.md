@@ -7,6 +7,11 @@ URL: https://ongaeshi.hatenablog.com/entry/2024/07/implement-blog-new-command
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6801883189119939549
 ---
 
+[自分用の blog コマンド](https://ongaeshi.hatenablog.com/entry/2024/07/03/230456) を改善中。
+git レポジトリへのコミットと blogsync を同期させる方向で実装してみた。
+
+[https://github.com/ongaeshi/blog_command:embed:cite]
+
 # blog new
 引数は `--custom-path` に渡すことで URL を直接指定できるようにする。
 `--draft` と `--title` はオプション。
