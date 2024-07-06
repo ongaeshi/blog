@@ -4,6 +4,7 @@ Date: 2024-07-06T20:59:58+09:00
 URL: https://ongaeshi.hatenablog.com/entry/2024/07/implement-blog-new-command
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6801883189119939549
 ---
+
 引数は `--custom-path` に渡すことで URL を直接指定できるようにする。
 `--draft` と `--title` はオプション。
 
