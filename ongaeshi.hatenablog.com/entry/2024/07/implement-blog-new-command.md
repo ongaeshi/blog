@@ -19,6 +19,8 @@ class Main < Thor
       opts << "--title=\"#{options[:title]}\"" if options[:title]
       opts << "--draft" if options[:draft]
       system("blogsync post --custom-path #{path } #{opts.join(" ")} ongaeshi.hatenablog.com")
+      system("git add ongaeshi.hatenablog.com/entry/#{path}.md")
+      system("git commit -m \"Add #{path}\"") 
     end
   end
 ```
