@@ -16,7 +16,7 @@ EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6
       system("blogsync post --custom-path #{path} #{opts.join(" ")} ongaeshi.hatenablog.com", in: IO::NULL)
 ```
 
-そうすると記事の最初の一回目は必ず空の状態で post されることになるので、常に`--draft`として作成することに変更。
+そうすると記事の最初の一回目は必ず空の状態で post されることになるので、常に`--draft`として作成する。(blog new から `--draft` オプションは削除)
 
 ```ruby
       system("blogsync post --custom-path #{path} --draft #{opts.join(" ")} ongaeshi.hatenablog.com", in: IO::NULL)
