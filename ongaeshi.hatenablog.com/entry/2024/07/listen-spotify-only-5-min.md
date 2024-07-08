@@ -16,6 +16,4 @@ EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1PZoHdDM71mzOFW1T6H03y?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-https://open.spotify.com/intl-ja/track/1PZoHdDM71mzOFW1T6H03y
-
 「次に再生」で好きな曲をつなげて、最後に波の音を流すとなんとなくタイマーみたいな効果があっておすすめです。
