@@ -3,13 +3,12 @@ Title: ブログ執筆を加速させるコマンドラインインターフェ�
 Category:
 - blogsync
 - ruby
+Date: 2024-07-11T09:10:56+09:00
 URL: https://ongaeshi.hatenablog.com/entry/2024/07/blog-writing-interface
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6801883189120988641
-PreviewURL: https://ongaeshi.hatenablog.com/draft/entry/6EQyC6msMMidB-ujoMEsvd6-r3E
-Draft: true
 ---
 
-このブログに簡単に素早く投稿するための個人用のコマンドラインインターフェース(CLI)を作った。
+このブログに素早く投稿するために、個人用のコマンドラインインターフェース(CLI)を作った。
 
 [https://github.com/ongaeshi/blog_command:embed:cite]
 
@@ -50,7 +49,7 @@ $ blog edit
 
 - ブログ記事が格納された git レポジトリをVSCode で開く。
 - blog new で作成したファイルを開いて記事を書いていく。
-- 記事の執筆が終わったら `draft: true` の行を削除してから `blog commit` コマンドを実行する。
+- 記事の執筆が終わったら `draft: true` の行を削除して `blog commit` コマンドを実行する。
 
 # 投稿: blog commit
 
@@ -66,7 +65,7 @@ $ blog commit -m "/path/to/article を投稿"
 - blogsync push する記事は以下のどれか
   - まだ追加されていないファイル (`git status --porcelain`)
   - 編集済みのファイル (`git diff --name-only`)
-  - pushしていないファイル (`git diff --name-only origin/main..HEAD`)
+  - main に pushしていないファイル (`git diff --name-only origin/main..HEAD`)
 - blogsync push と git commit を同時に行うことでどちらかの実行し忘れを防ぐ。(blog コマンドを作る前はこの操作ミスが本当に多かった)
 
 # 感想
@@ -87,5 +86,5 @@ $ blog commit -m "/path/to/article を投稿"
 blogsync に薄いラッパーを被せて自分のブログ投稿ワークフローに最適なインターフェースを作った。
 ユーザーにフィットしたインターフェースをデザインすることは、個人や組織の開発効率を飛躍的に向上させる。
 
-今や、重要な内部パーツは多くがOSSとして既に存在しており、あるいはLLMによって生成できる時代になった。
-そのため、様々な状況に対応できるインターフェースを作成することが、これからのプログラマにとって一層重要なスキルとなるだろう。
+今や、重要な内部パーツは多くがOSSとして既に存在している、あるいはLLMによって生成できる時代になった。
+そのため、様々な状況に対応できるインターフェースを作成することが、これからのプログラマにとって一層重要なスキルとなりそうな予感がする。
