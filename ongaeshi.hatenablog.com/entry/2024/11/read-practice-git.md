@@ -1,9 +1,8 @@
 ---
 Title: 実践 git を読んだ
+Date: 2024-11-01T01:45:49+09:00
 URL: https://ongaeshi.hatenablog.com/entry/2024/11/read-practice-git
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6802418398300491565
-PreviewURL: https://ongaeshi.hatenablog.com/draft/entry/CmGsTwv3pXQCbHOG53FcIuR10-M
-Draft: true
 ---
 
 内部実装を分かりやすく説明した2章が特に面白い。 それぞれはシンプルな blob, tree, commit の組み合わせで複雑なバージョン管理が実現できているのが分かった。
