@@ -1,9 +1,8 @@
 ---
 Title: ホームページを VitePress でリニューアルした
+Date: 2024-12-11T00:09:20+09:00
 URL: https://ongaeshi.hatenablog.com/entry/2024/12/homepage-renewal
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6802418398310605464
-PreviewURL: https://ongaeshi.hatenablog.com/draft/entry/N7tBdNAC-Rg1JHt0lpTEGrhQ15Q
-Draft: true
 ---
 
 https://ongaeshi.me/
