@@ -7,12 +7,18 @@ EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6
 
 p5rb_cli という RubyGems をつくりました。今まで p5.rb を使って Ruby でクリエイティブコーディングをしたい場合、ローカルに p5.rb スクリプトをダウンロードし、手動で読み込み用の HTML を作成する必要がありましたが、p5rb_cli を使うとコマンドを使って簡単にクリエイティブコーディングを始めることができます。
 
+> RubyKaigi で VJ ツールとして使っていただいた方がいらっしゃったと聞いてとても嬉しく思いました。
+私自身も RubyMusicMixin2025VJ.rb を手元で動かしたりして楽しませてもらいました。
+やっとパワーが出たので p5.rb CLI の紹介記事も書けました。
+ [https://holygrail.hatenablog.com/entry/2025/04/20/133621:embed:cite] 
+
 # インストール
 ```
 gem install p5rb_cli
 ```
 
 Ruby さえあれば誰でも簡単にインストールできるように、最小限の gem 依存で作成しています。webrick と thor しか使っていないので、大体どの OS でもインストールできると思います。
+
 
 # 使い方
 ## 新しいスケッチの作成
