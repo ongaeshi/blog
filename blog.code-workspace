@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "blog",
+			"path": "."
+		},
+		{
+			"path": "../notes"
+		}
+	],
+	"settings": {}
+}

@@ -1,21 +1,18 @@
 ---
 Title: p5.rb CLIをリリースしました
+Date: 2025-04-27T02:55:33+09:00
 URL: https://ongaeshi.hatenablog.com/entry/2025/03/p5rb-cli-release
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6802418398339418843
-PreviewURL: https://ongaeshi.hatenablog.com/draft/entry/yb4CMcG5BXA9CgOwPQIWUVW_W84
-Draft: true
 ---
 
 p5rb_cli という RubyGems をつくりました。今まで p5.rb を使って Ruby でクリエイティブコーディングをしたい場合、ローカルに p5.rb スクリプトをダウンロードし、手動で読み込み用の HTML を作成する必要がありましたが、p5rb_cli を使うとコマンドを使って簡単にクリエイティブコーディングを始めることができます。
-
-https://github.com/ongaeshi/p5rb_cli
 
 # インストール
 ```
 gem install p5rb_cli
 ```
 
-Ruby さえあれば簡単にインストールできるように、最小限の gem 依存で作成しています。
+Ruby さえあれば誰でも簡単にインストールできるように、最小限の gem 依存で作成しています。webrick と thor しか使っていないので、大体どの OS でもインストールできると思います。
 
 # 使い方
 ## 新しいスケッチの作成
@@ -34,19 +31,20 @@ p5rb run path/to/hello.rb
 # => http://localhost:8000
 ```
 
-指定したスケッチをローカルサーバーで実行し、ウェブアプリ経由でブラウザで表示します。
+このコマンドは指定したスケッチをローカルサーバーで実行し、ブラウザで表示します。
 
 ## ウェブアプリ
-p5rb run で指定したスクリプトの実行結果が画面に表示されます。  
-スクリプトを任意のエディタで編集してから Run ボタンを押すと画面が新しい実行結果で更新されます。  
-Save ボタンを押すとスクリーンショットがローカルに保存されます。
-
 ![hello.rb](https://i.gyazo.com/768da33a6f56df6552a17f3b3b6776af.png)
 
+p5rb run で指定したスクリプトの実行結果が画面に表示されます。
 
-# サンプル
-## 1. 画像の表示
-ローカル環境での実行なので [loadImage](https://p5js.org/reference/p5/loadImage/) などのローカルアセットにアクセスする API が使えるようになります。
+スクリプトを任意のエディタで編集してから Run ボタンを押すと画面が新しい実行結果で更新されます。
+
+Save ボタンを押すとスクリーンショットがローカルに保存されます。
+
+## サンプルコード1(画像の表示)
+
+ローカル環境での実行なので loadImage などのローカルアセットにアクセスする API が使えるようになります。
 
 ![load_image.rb](https://i.gyazo.com/a9a88f4787c83c9fe73e25d6ff46a07d.png)
 
@@ -74,7 +72,7 @@ def draw
 end
 ```
 
-## 3D
+## サンプルコード2(3D)
 
 GitHub Copilot に手伝ってもらった書いた3Dデモです。（p5.js のこの辺りの API の知識は自分にはほとんどない状態で記述しています。）
 
@@ -146,7 +144,5 @@ end
 ```
 
 # まとめ
-p5.rb がお気に入りのエディタやAI支援を受けながら開発することができるようになりました。
-
-Ruby でのクリエイティブコーディングを楽しんでいただけたら幸いです。
-
+p5.rb がお気に入りのエディタやAI支援を受けながら開発することができるようになりました。Ruby でもクリエイティブコーディングを楽しんでいただけたら幸いです。
+ご質問やフィードバックがございましたら、お気軽にお寄せください。
