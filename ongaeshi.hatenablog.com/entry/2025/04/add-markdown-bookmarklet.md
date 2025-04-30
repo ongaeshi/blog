@@ -3,8 +3,6 @@ Title: MarkdownコピーとMarkdown引用のブックマークレットを追加
 Date: 2025-04-28T10:30:00+09:00
 URL: https://ongaeshi.hatenablog.com/entry/2025/04/add-markdown-bookmarklet
 EditURL: https://blog.hatena.ne.jp/tuto0621/ongaeshi.hatenablog.com/atom/entry/6802418398394873794
-PreviewURL: https://ongaeshi.hatenablog.com/draft/entry/4ycTqUXTB3Q0X6Yeutixmg3uKwI
-Draft: false
 ---
 
 Webページの内容をMarkdown形式でコピーしたり引用したりするブックマークレットを追加しました。これにより、ブログ記事やドキュメント作成時にWebページからの情報を簡単に取り込めるようになります。
